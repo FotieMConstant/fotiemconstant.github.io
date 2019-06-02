@@ -6,9 +6,9 @@ Form here you have a view of all my open source projects and their repositories.
 1. [LANTube](https://fotiemconstant.github.io/LAN-Tube): An open source Youtube-like web app for your home network. Where you can do live streaming on your LAN, share files and much more. 
 
 
-2. [FAFSOFT](https://fotiemconstant.github.io/FAFSOFT): This is a simple terminal police management software built in C programming. If you are getting started with programming in C, it is a great idea to check out this project as most basic operations are implemented in the project, e.g Creating a file, printing in a file, reading from a file etc. fell free to use the code and make something better out of it.
+2. [FAFSOFT](https://fotiemconstant.github.io/FAFSOFT): This is a simple terminal police station management software built in C. If you are getting started with programming in C, it is a great idea to check out this project as most basic operations are implemented in the project, e.g Creating a file, printing in a file, reading from a file etc. feel free to use the code and make something better out of it.
 
-
+2. [4Selfie](https://fotiemconstant.github.io/4Selfie):
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
