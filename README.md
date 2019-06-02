@@ -1,3 +1,4 @@
+   ![Image](https://github.com/FotieMConstant/fotiemconstant.github.io/blob/master/github.png)
 ## Welcome to my GitHub page
 
 From here you have a view of all my open source projects and their repositories. Most of my projects are open source and free to use. Please NOTE that every contribution to any of my projects are highly welcome. You can download, modify and use the source code for free!
@@ -13,5 +14,3 @@ From here you have a view of all my open source projects and their repositories.
 # More
 ### about me
 Web Developer with a demonstrated history of working in the computer software industry. Skilled in UI/UX Designing, Responsive Web Design, Full-Stack Development, and Web Development. Strong engineering student undergoing Bachelor degree focused in Computer Software Engineering at African Institute of Computer Sciences.
-
-[Link](url) and ![Image](src)
