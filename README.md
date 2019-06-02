@@ -1,10 +1,13 @@
 ## Welcome to my GitHub page
 
-Form here you have a view of all my open source projects and their repositories. Most of my projects are open source and free to use. Please NOTE that every contribution to anyof my projects are highly welcome. You can download, modify and use the source code for free!
+Form here you have a view of all my open source projects and their repositories. Most of my projects are open source and free to use. Please NOTE that every contribution to any of my projects are highly welcome. You can download, modify and use the source code for free!
 
 
+1. [LANTube](https://fotiemconstant.github.io/LAN-Tube): An open source Youtube-like web app for your home network. Where you can do live streaming on your LAN, share files and much more. 
 
-My first projet is [LANTube](https://fotiemconstant.github.io/LAN-Tube). an open source Youtube-like web app for your home network. Where you can do live streaming on your LAN, share files and much more. 
+
+2. [FAFSOFT](https://fotiemconstant.github.io/FAFSOFT): This is a simple terminal police management software built in C programming. If you are getting started with programming in C, it is a great idea to check out this project as most basic operations are implemented in the project, e.g Creating a file, printing in a file, reading from a file etc. fell free to use the code and make something better out of it.
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
