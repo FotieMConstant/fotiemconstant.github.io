@@ -8,8 +8,7 @@ Form here you have a view of all my open source projects and their repositories.
 
 2. [FAFSOFT](https://fotiemconstant.github.io/FAFSOFT): This is a simple terminal police station management software built in C. If you are getting started with programming in C, it is a great idea to check out this project as most basic operations are implemented in the project, e.g Creating a file, printing in a file, reading from a file etc. feel free to use the code and make something better out of it.
 
-2. [4Selfie](https://fotiemconstant.github.io/4Selfie):
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+2. [4Selfie](https://fotiemconstant.github.io/4Selfie): An app which developed for fun. Take incredible selfies and share it with world. not just sharing but also competing with your friends and even strangers. gate anonymous rating and see who wins, more stars means more views and more likes. hence more celebrity of 4Selfie. Basically that is the idea behine the app. initially it was meant to be native to be more handy. This app is still at it's early development stage so any ideas, suggestions and improvements are soo much welcomed 
 
 ### Markdown
 
