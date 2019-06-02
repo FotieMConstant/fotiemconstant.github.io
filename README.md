@@ -1,6 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to my GitHub page
 
-You can use the [editor on GitHub](https://github.com/FotieMConstant/fotiemconstant.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Form here you have a view of all my open source projects and their repositories. Most of my projects are open source and free to use. Please NOTE that every contribution to anyof my projects are highly welcome. You can download, modify and use the source code for free!
+
+
+
+My first projet is [LANTube](https://fotiemconstant.github.io/LAN-Tube). an open source Youtube-like web app for your home network. Where you can do live streaming on your LAN, share files and much more. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
