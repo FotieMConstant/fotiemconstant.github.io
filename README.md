@@ -1,4 +1,4 @@
-   ![Image](https://github.com/FotieMConstant/fotiemconstant.github.io/blob/master/github.png)
+   ![Image](https://github.com/FotieMConstant/fotiemconstant.github.io/github.png)
 ## Welcome to my GitHub page
 
 From here you have a view of all my open source projects and their repositories. Most of my projects are open source and free to use. Please NOTE that every contribution to any of my projects are highly welcome. You can download, modify and use the source code for free!
