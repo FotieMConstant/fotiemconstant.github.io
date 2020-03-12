@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- importing Bootstrap 4-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- impoerting Custom styles -->
+  <link rel="stylesheet" href="assets/custom.css">
+  <title>Quote Generator</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="" class="logo">Quote Generator</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </header>
+
+  <!-- page-header -->
+  <div class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="page-caption">
+            
+            <h1 class="page-title">Random Quote Generator</h1><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.page-header-->
+  <!-- Content -->
+  <div class="card-section">
+    <div class="container">
+      <div class="card-block bg-white mb30">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <!-- section-title -->
+            <div class="section-title mb-0">
+              <h2>Generate your quote</h2>
+              <p>A Random Quote Generator</p>
+                <div style="text-align: center; margin-top: 25px; margin-bottom: 25px;">
+               <em><h5 class="text-muted" id="displayQuote"> Your Quote will appear here!</h5 class="text-muted"></em>
+              </div>
+               <div class="row">
+                  <div class="col">
+                    
+                    <div class="form-group">
+                      <label for="Phone">Type of Quote:</label>
+                      <div class="input-group">
+                        <select id="typeQuote" class="form-control" required>
+                          <option value="1">Inspirational</option>
+                          <option value="2">Hard work</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-group">
+                      <label for="Phone">Number Quotes</label>
+                      <div class="input-group">
+                        <select id="numberQuote" class="form-control" required>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div style="margin-top: 30px;">
+                     <button class="btn btn-primary" onclick="runQuoteGen()">Generate Quote</button> <button class="btn btn-warning" onclick="clearAll()">Reset</buttom>
+                    </div>
+                  </div>
+                </div>
+              </p>
+            </div>
+            <!-- /.section-title -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <hr>
+
+
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <small class="d-block mb-3 text-muted">Copyright &copy; 2020 Quote Generator &middot; <a
+            href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a></small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Navigations</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="index.html">Home</a></li>
+          <li><a class="text-muted" href="about.html">About</a></li>
+        </ul>
+      </div>
+     
+      <div class="col-6 col-md">
+        <h5>We are social</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" target="_BLANK" href="https://twitter.com">Twitter</a></li>
+          <li><a class="text-muted" target="_BLANK" href="https://instagram.com">Instagram</a></li>
+          <li><a class="text-muted" target="_BLANK" href="https://facebook.com">Facebook </a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- importing custom js -->
+  <script src="assets/P5_01_javascriptfile.js"></script>
+
+ 
+</body>
+
+</html>
