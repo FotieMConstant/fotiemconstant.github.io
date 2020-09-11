@@ -1,15 +1,47 @@
-## Welcome to my GitHub page
+### Hello World 👋🏾 It's [Fotie!](https://fotiemconstant.github.io/)
 
-From here you have a view of all my open source projects and their repositories. Most of my projects are open source and free to use. Please NOTE that every contribution to any of my projects are highly welcome. You can download, modify and use the source code for free!
+<br/>
 
+<a href="https://twitter.com/fotie_codes">
+<img align="left" alt="Fotie | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+</a>
+<a href="https://www.linkedin.com/in/fotie-m-constant/">
+<img align="left" alt="Fotie Prag" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
+<a href="https://www.instagram.com/fotiewireless/">
+<img align="left" alt="Fotie Prag" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+</a>
+<br />
 
-1. **[LANTube](https://fotiemconstant.github.io/LAN-Tube)**: An open source Youtube-like web app for your home network. Where you can do live streaming on your LAN, share files and much more. 
+<br />
 
+Hi,I'm Fotie🙌, a Front-End Web Developer, Chatbot Developer and Cloud Enthusiast. Apart from that I love getting involved in Competitive Programming and Problem Solving.❤✌ i am also passionate about making open-source more accessible, creating technology to elevate people, and building community. Some technologies I enjoy working with include ReactJS, VueJS (JavaScript, APIs + Markup) and Python.
 
-2. **[FAFSOFT](https://fotiemconstant.github.io/FAFSOFT)**: This is a simple terminal police station management software built in C. If you are getting started with programming in C, it is a great idea to check out this project as most basic operations are implemented in the project, e.g Creating a file, printing in a file, reading from a file etc. feel free to use the code and make something better out of it.
+<img align="right" alt="GIF" src="https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif" />
 
-2. **[4Selfie](https://fotiemconstant.github.io/4Selfie)**: An app developed for fun. Take incredible selfies and share it with world. not just sharing but also competing with your friends and even strangers. gate anonymous rating and see who wins, more stars means more views and more likes. hence more celebrity of 4Selfie. Basically that is the idea behine the app. initially it was meant to be native to be more handy. This app is still at it's early development stage so any ideas, suggestions and improvements are soo much welcomed 
+**Talking about Personal Stuffs:**
 
-# More
-### about me
-Web Developer with a demonstrated history of working in the computer software industry. Skilled in UI/UX Designing, Responsive Web Design, Full-Stack Development, and Web Development. Strong engineering student undergoing Bachelor degree focused in Computer Software Engineering at African Institute of Computer Sciences.
+- 🔭 I’m currently Intern at WinMoney.
+- 🌱 I’m currently learning VueJs and ReactJs.
+- 👯 Part of Developer Community.
+- 💬 Ask me about anything , Would love to answer them.✌
+- 📫 How to reach me: Any of the Social-Media Platform
+- ⚡ Check out my recent [Blogs](https://fotie.hashnode.dev/)✍🏾
+- 📝[Portfolio](https://fotiemconstant.github.io/)
+- ✨ I Also speak Chinese.
+
+**Community**
+
+- Google Developer Group Yaounde
+- Facebook Developer Circles Yaounde
+- Student Community Ambassador at Openlcassrooms
+
+**Languages and Tools:**
+
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
+
+![Fotie's github stats](https://github-readme-stats.vercel.app/api?username=FotieMConstant&show_icons=true&hide_border=true)
