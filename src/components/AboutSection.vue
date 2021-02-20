@@ -1,14 +1,14 @@
 <template>
   <v-card
-    id="wrapper"
+    id="about"
     class="pa-12 mx-auto mt-16"
     elevation="12"
     max-width="1150"
   >
-    <h2 align="center" class="mb-5">About me</h2>
+    <h1 align="center" class="mb-5">About me</h1>
     <v-row no-gutters>
       <v-col cols="6" md="4">
-        <v-card align="center" class="pa-2" outlined tile>
+        <v-card class="pa-2" elevation="0">
           <img
             class="__profile"
             src="../assets/fotie.png"
@@ -17,7 +17,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="6" md="8">
-        <v-card class="pa-2" outlined tile>
+        <v-card class="pa-2" elevation="0">
           <p>
             Hi there, I'm Fotie. Web Developer with a demonstrated history of
             working in the computer software industry. Skilled in UI Designing,

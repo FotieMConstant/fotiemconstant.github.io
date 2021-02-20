@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home">
     <v-img
       class="mt-8 bg"
       height="350"
@@ -8,14 +8,19 @@
       <!-- https://wallpaperaccess.com/full/1947484.jpg -->
       <v-row class="mt-10" align="center" justify="center">
         <v-col class="text-center" cols="12">
-          <v-avatar size="120" class="mb-5">
+          <v-avatar size="120" class="mb-n4">
             <img
               class="__avatar"
               src="../assets/profile.png"
               alt="Fotie profile"
           /></v-avatar>
           <span class="white--text">
-            <h1 class="display-1 font-weight-normal mb-4">Howdy, I am Fotie</h1>
+            <h2 class="display-1 font-weight-normal mb-0">
+              <span id="text-1">Howdy,</span>
+              <span id="text-2">
+                <span id="text-2-span">I'm Fotie</span>
+              </span>
+            </h2>
             <h4 class="subheading font-weight-thin">
               <span class="textAnimated"></span>
             </h4>
@@ -30,6 +35,19 @@ export default {
     return {};
   },
   mounted: function () {
+    // function for the header title
+    var text1 = ["Code", "Debugging", "JavaScript"];
+    var text2 = ["Is Poetry", "is slick", "Is fun"];
+    var count = 2;
+    setInterval(() => {
+      count--;
+      document.getElementById("text-1").innerHTML = text1[count];
+      document.getElementById("text-2-span").innerHTML = text2[count];
+      if (count == 0) {
+        count = 3;
+      }
+    }, 7000);
+
     //   Show typing style txt
     let textAnimated = document.querySelector(".textAnimated");
 
@@ -128,5 +146,97 @@ export default {
   100% {
     opacity: 0;
   }
+}
+
+/* css for the header title section */
+
+#text-1,
+#text-2 {
+  margin-top: 30px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 2;
+  text-transform: initial;
+  color: #f1f1f1;
+  padding: 0 5px;
+}
+
+#text-1 {
+  animation: showup 7s infinite;
+}
+
+#text-2 {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+#text-2-span {
+  margin-left: -200px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: auto;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: auto;
+  }
+}
+
+p {
+  margin-top: 100px;
+  font-size: 10px;
+  color: #777;
+}
+
+p a {
+  color: #c1c1c1;
+  text-decoration: none;
 }
 </style>

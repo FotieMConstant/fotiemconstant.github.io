@@ -1,29 +1,35 @@
 <template>
   <div>
     <v-app-bar app :color="defaultAppBarColour" dense dark>
-      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon
+        v-show="showHamburgerMenu"
+        @click="drawer = true"
+      ></v-app-bar-nav-icon>
 
       <router-link to="/">
         <v-toolbar-title id="logo">Fotie </v-toolbar-title>
       </router-link>
 
       <v-spacer></v-spacer>
-      <router-link to="/" class="__auth__Button">
-        <v-btn depressed plain text color="white"> Home </v-btn>
-      </router-link>
-      <router-link to="/about" class="__auth__Button">
-        <v-btn depressed plain text color="white"> About </v-btn>
-      </router-link>
-      <router-link to="/portfolio" class="__auth__Button">
-        <v-btn depressed plain text color="white"> portfolio </v-btn>
-      </router-link>
-      <router-link to="/blog" class="__auth__Button">
-        <v-btn depressed plain text color="white"> Blog </v-btn>
-      </router-link>
-      <router-link to="/contact" class="__auth__Button">
-        <v-btn depressed plain text color="white"> Contact </v-btn>
-      </router-link>
+      <!-- Navigation links -->
+      <span v-show="webMenu">
+        <a href="#home" @click.prevent="scrollTo('#home')">
+          <v-btn depressed plain text color="white"> Home </v-btn>
+        </a>
+        <a href="#about" @click.prevent="scrollTo('#about')">
+          <v-btn depressed plain text color="white"> About </v-btn>
+        </a>
+        <a href="#skill" @click.prevent="scrollTo('#skill')"
+          ><v-btn depressed plain text color="white"> skill </v-btn></a
+        >
+        <a href="#portfolio" @click.prevent="scrollTo('#portfolio')"
+          ><v-btn depressed plain text color="white"> Portfolio </v-btn></a
+        >
 
+        <a href="#contact" @click.prevent="scrollTo('#contact')">
+          <v-btn depressed plain text color="white"> Contact </v-btn>
+        </a>
+      </span>
       <!-- Dark option -->
       <div>
         <v-tooltip v-if="!$vuetify.theme.dark" bottom>
@@ -62,13 +68,16 @@
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
-        <v-list-item-group v-model="group">
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>Home</v-list-item-title>
-          </v-list-item>
+        Still working on this menu for mobile. Please check back later!
+        <!-- <v-list-item-group v-model="group">
+          <a href="#home" @click.prevent="scrollTo('#home')">
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-home</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Home</v-list-item-title>
+            </v-list-item>
+          </a>
 
           <v-list-item>
             <v-list-item-icon>
@@ -76,7 +85,7 @@
             </v-list-item-icon>
             <v-list-item-title>Account</v-list-item-title>
           </v-list-item>
-        </v-list-item-group>
+        </v-list-item-group> -->
       </v-list>
     </v-navigation-drawer>
   </div>
@@ -87,6 +96,8 @@
 export default {
   data() {
     return {
+      showHamburgerMenu: false,
+      webMenu: true,
       group: null,
       drawer: false,
       fab: null,
@@ -95,7 +106,20 @@ export default {
   },
   computed: {},
   mounted: function () {
-    // // Keep dark mode on if the user's system is on dark mode!
+    // check if on mobile
+    if (
+      /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ) {
+      // some code..
+      this.webMenu = false;
+      this.showHamburgerMenu = true;
+      console.log("You are on mobile");
+    } else {
+      console.log("You are on Desktop");
+    }
+    // Keep dark mode on if the user's system is on dark mode!
     // if (
     //   window.matchMedia &&
     //   window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -119,6 +143,10 @@ export default {
         this.defaultAppBarColour = "primary";
       }
     },
+    scrollTo(selector) {
+      console.log(selector);
+      document.querySelector(selector).scrollIntoView({ behavior: "smooth" });
+    },
   },
 };
 </script>
@@ -129,8 +157,5 @@ a {
 }
 #logo {
   color: white !important;
-}
-.__auth__Button {
-  text-transform: initial;
 }
 </style>
