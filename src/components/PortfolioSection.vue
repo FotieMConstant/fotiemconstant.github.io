@@ -91,7 +91,7 @@ export default {
           thumbnail:
             "https://fotiemconstant.github.io/img/portfolio/metal-fighters.PNG",
           liveView:
-            "https://fotiemconstant.github.io/portfolio/Metal-Fighters/",
+            "https://fotiemconstant.github.io/Metal-Fighters/",
           githubRepo: "https://github.com/FotieMConstant/Metal-Fighters",
         },
         {
