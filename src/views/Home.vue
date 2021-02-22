@@ -31,5 +31,13 @@ export default {
     TestimonialsSection,
     ContactSection,
   },
+  watch: {
+    $route: {
+      immediate: true,
+      handler(to) {
+        document.title = to.meta.title || "Fotie - Portfolio";
+      },
+    },
+  },
 };
 </script>

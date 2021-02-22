@@ -19,7 +19,7 @@
       <v-col cols="12" sm="6" md="8">
         <v-card class="pa-2" elevation="0">
           <p>
-            Hi there, I'm Fotie. Web Developer with a demonstrated history of
+            Hello world, I'm Fotie. Web Developer with a demonstrated history of
             working in the computer software industry. Skilled in UI Designing,
             Responsive Web Design, Full-Stack Development, and Web Development.
             Strong engineering student undergoing Bachelor degree focused in

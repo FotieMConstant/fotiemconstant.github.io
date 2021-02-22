@@ -88,6 +88,17 @@
         </v-list-item-group> -->
       </v-list>
     </v-navigation-drawer>
+    <!-- snack bar -->
+    <v-snackbar v-model="snackbar">
+      {{ text }}
+
+      <template v-slot:action="{ attrs }">
+        <v-btn color="white" text v-bind="attrs" @click="snackbar = false">
+          Close
+        </v-btn>
+      </template>
+    </v-snackbar>
+    <!-- / snack bar -->
   </div>
 </template>
 <script>
@@ -96,6 +107,8 @@
 export default {
   data() {
     return {
+      snackbar: true,
+      text: `🚀Hello, New design here . Please, Some sections maybe incomplete!`,
       showHamburgerMenu: false,
       webMenu: true,
       group: null,
