@@ -11,7 +11,7 @@
           <v-avatar size="120" class="mb-n4">
             <img
               class="__avatar"
-              src="../assets/profile.png"
+              src="https://avatars.githubusercontent.com/u/42372656?s=460&v=4"
               alt="Fotie profile"
           /></v-avatar>
           <span class="white--text">
