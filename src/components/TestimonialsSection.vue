@@ -6,33 +6,24 @@
     </span>
     <div>
       <v-row no-gutters>
-        <v-col
-          v-for="testimonial in testimonials"
-          :key="testimonial.id"
-          cols="12"
-          md="4"
-          sm="6"
-        >
+        <v-col v-for="testimonial in testimonials" :key="testimonial.id" cols="12" md="4" sm="6">
           <div class="pa-2">
             <v-card elevation="0" class="mx-auto">
               <center class="testimonial">
-                <img
-                  :src="testimonial.displayPhotoLink"
-                  alt="Testimonial - Fotie"
-                />
+                <img :src="testimonial.displayPhotoLink" alt="Testimonial - Fotie" />
                 <br />
                 <a :href="testimonial.linkedIn" target="_blank">
                   <v-btn text small fab depressed>
                     <v-icon color="primary">mdi-linkedin</v-icon>
-                  </v-btn></a
-                >
+                  </v-btn>
+                </a>
                 <div class="name mt-n1">{{ testimonial.name }}</div>
-                <v-card-subtitle class="ml-n4 mt-n9">{{
+                <v-card-subtitle class="ml-n4 mt-n9">
+                  {{
                   testimonial.title
-                }}</v-card-subtitle>
-                <p>
-                  {{ testimonial.testimonial }}
-                </p>
+                  }}
+                </v-card-subtitle>
+                <p>{{ testimonial.testimonial }}</p>
               </center>
             </v-card>
           </div>
@@ -68,13 +59,13 @@ export default {
         },
         {
           id: 3,
-          name: "Safi Ullah",
+          name: "Clemence Fabien",
           displayPhotoLink:
             "https://media-exp1.licdn.com/dms/image/C4D03AQFjG-z8URI_zg/profile-displayphoto-shrink_200_200/0/1601072859754?e=1619049600&v=beta&t=6UfDocam_9RtbcXbluGepbKCfAxzUOKxEEfwCjKEXis",
-          title: "Software Engineer | Full Stack Developer ",
-          linkedIn: "https://www.linkedin.com/in/ullahsafi/",
+          title: "Career Coach | Coach Clem - Thrive professionally ",
+          linkedIn: "https://www.linkedin.com/in/clemencefabien/",
           testimonial:
-            "Fotie is a cheerful and helping person, who knows his work and loves doing it! He has developed some of the best projects in our batch. Because of his keen interest in learning new technologies and developing new stuff, I see exciting future and wonderful opportunities waiting for him in the future and I wish him the best of luck...",
+            "Fotie helped a lot with my partner's business website regarding his SEO and social media strategy. Amazing help provided with such reactivity and professionalism. You can really count on Fotie and that's priceless...",
         },
       ],
     };
