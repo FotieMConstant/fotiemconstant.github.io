@@ -41,7 +41,7 @@ export default {
           id: 1,
           name: "Lesley Skousen",
           displayPhotoLink:
-            "https://media-exp1.licdn.com/dms/image/C5603AQH5JzIFu6X28g/profile-displayphoto-shrink_200_200/0/1551823807136?e=1619049600&v=beta&t=nas87OlJ_kIOwUEC2kPSNhXonm2B9fhVJ3zgTGuUlUM",
+            "https://raw.githubusercontent.com/FotieMConstant/fotiemconstant.github.io/vue-portfolio/img/testimonials/lesley.jpeg",
           title: "Student Success Manager at OpenClassrooms",
           linkedIn: "https://www.linkedin.com/in/lesleyskousen/",
           testimonial:
@@ -51,7 +51,7 @@ export default {
           id: 2,
           name: "Marcos Cabrini Riani ",
           displayPhotoLink:
-            "https://media-exp1.licdn.com/dms/image/C4D03AQFH116wtSTH9A/profile-displayphoto-shrink_200_200/0/1598205469821?e=1619049600&v=beta&t=REGAKsv0Yam7KwhYVi7LeSPoZEz_CEL9UkHQhA4d_TY",
+            "https://raw.githubusercontent.com/FotieMConstant/fotiemconstant.github.io/vue-portfolio/img/testimonials/marcos.jpeg",
           title: "Web Support Analyst at Q4 Inc",
           linkedIn: "https://www.linkedin.com/in/marcosriani/",
           testimonial:
@@ -61,7 +61,7 @@ export default {
           id: 3,
           name: "Clemence Fabien",
           displayPhotoLink:
-            "https://media-exp1.licdn.com/dms/image/C4D03AQFjG-z8URI_zg/profile-displayphoto-shrink_200_200/0/1601072859754?e=1619049600&v=beta&t=6UfDocam_9RtbcXbluGepbKCfAxzUOKxEEfwCjKEXis",
+            "https://raw.githubusercontent.com/FotieMConstant/fotiemconstant.github.io/vue-portfolio/img/testimonials/clem.jpeg",
           title: "Career Coach | Coach Clem - Thrive professionally ",
           linkedIn: "https://www.linkedin.com/in/clemencefabien/",
           testimonial:
