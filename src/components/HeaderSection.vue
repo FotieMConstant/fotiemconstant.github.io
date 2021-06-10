@@ -3,7 +3,8 @@
     <v-img
       class="mt-8 bg"
       height="350"
-      src="https://www.itl.cat/pngfile/big/327-3274460_web-development.jpg"
+      src="https://wallpaperaccess.com/full/1947484.jpg"
+      gradient="to top left, rgba(0,0,0,0), rgba(0,0,0,20)"
     >
       <!-- https://wallpaperaccess.com/full/1947484.jpg -->
       <v-row class="mt-10" align="center" justify="center">
@@ -13,7 +14,8 @@
               class="__avatar"
               src="https://avatars.githubusercontent.com/u/42372656?s=460&v=4"
               alt="Fotie profile"
-          /></v-avatar>
+            />
+          </v-avatar>
           <span class="white--text">
             <h2 class="display-1 font-weight-normal mb-0">
               <span id="text-1">Howdy,</span>
@@ -25,8 +27,9 @@
               <span class="textAnimated"></span>
             </h4>
           </span>
-        </v-col> </v-row
-    ></v-img>
+        </v-col>
+      </v-row>
+    </v-img>
   </div>
 </template>
 <script>
