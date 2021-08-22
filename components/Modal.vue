@@ -22,7 +22,7 @@
             New design is on it's way!
           </h2>
           <p class="text-sm text-gray-500 px-8">
-            I am currently rebuilding/redesigning my portfolio and would like to
+            I am currently rebuilding/redesigning my portfolio and would love to
             hear from you!
           </p>
           <hr class="mx-auto my-5" width="50">
