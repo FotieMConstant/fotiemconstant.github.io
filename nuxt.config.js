@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static', // default is 'server'
   head: {
-    title: 'nuxt-portfolio',
+    title: 'Fotie Portfolio',
     htmlAttrs: {
       lang: 'en'
     },

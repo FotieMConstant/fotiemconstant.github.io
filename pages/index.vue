@@ -1,6 +1,7 @@
 <template>
   <div>
     <Appbar />
+    <Modal />
     <div class="pt-12 md:pt-0">
       <HeroSection />
     </div>
