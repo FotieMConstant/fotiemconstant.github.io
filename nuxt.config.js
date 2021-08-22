@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static', // default is 'server'
   head: {
     title: 'nuxt-portfolio',
     htmlAttrs: {
@@ -41,4 +42,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
+  // router: {
+  //   base: './'
+  // }
 }
