@@ -5,7 +5,12 @@
     <div class="pt-12 md:pt-0">
       <HeroSection />
     </div>
-    <AboutSection />
+    <div class="container">
+      <AboutSection />
+      <div>
+        <SkillSection />
+      </div>
+    </div>
     <!-- <FooterSection /> -->
   </div>
 </template>

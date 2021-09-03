@@ -1,27 +1,46 @@
 <template>
-  <div
-    class="h-screen md:h-96 bg-opacity-50 bg-black flex items-center justify-center __imghero"
-    style="background:rgba(0,0,0,0.5);"
-  >
-    <div class="mx-2  text-center">
-      <img
-        class=" md:mt-0 rounded-full w-40 shadow-sm ml-auto mr-auto"
-        src="https://avatars.githubusercontent.com/u/42372656?s=460&v=4"
-        alt="fotiecodes profile"
+  <!-- hero -->
+  <div class="hero bg-gray-100 py-16">
+    <!-- container -->
+    <div class="container px-4 sm:px-8 lg:px-16 xl:px-20 mx-auto">
+      <!-- hero wrapper -->
+      <div
+        class="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center"
       >
-      <span class="text-white">
-        <h2 class="display-1 font-weight-normal mb-0">
-          <span id="text-1">Howdy,</span>
-          <span id="text-2">
+        <!-- hero text -->
+        <div class="hero-text col-span-6">
+          <h1
+            id="text-1"
+            class="font-bold text-2xl md:text-4xl max-w-xl text-gray-900 leading-tight"
+          >
+            Howdy,
+          </h1>
+          <h1
+            id="text-2"
+            class="font-bold text-2xl md:text-4xl max-w-xl text-gray-900 leading-tight"
+          >
             <span id="text-2-span">I'm Fotie</span>
+          </h1>
+          <hr class="w-12 h-1 bg-orange-500 rounded-full mt-0">
+          <span class="text-black">
+            <h4 class="subheading font-weight-thin">
+              <span class="textAnimated text-black" />
+            </h4>
           </span>
-        </h2>
-        <h4 class="subheading font-weight-thin">
-          <span class="textAnimated text-white" />
-        </h4>
-      </span>
+        </div>
+
+        <!-- hero image -->
+        <div class="hero-image col-span-6">
+          <img
+            class=" md:mt-0 rounded-full w-40 shadow-sm ml-auto mr-auto"
+            src="https://avatars.githubusercontent.com/u/42372656?s=460&v=4"
+            alt="fotiecodes profile"
+          >
+        </div>
+      </div>
     </div>
   </div>
+  <!-- end hero -->
 </template>
 <script>
 export default {
@@ -30,8 +49,8 @@ export default {
   },
   mounted () {
     // function for the header title
-    const text1 = ['Code', 'Debugging', 'JavaScript']
-    const text2 = ['Is Poetry', 'is slick', 'Is fun']
+    const text1 = ['I design', 'I love', 'Passionate about']
+    const text2 = ['& Build', 'Coding', 'Opensource!']
     let count = 2
     setInterval(() => {
       count--
@@ -112,14 +131,13 @@ export default {
 
 <style scoped>
 /* custom non-Tailwind CSS */
-.__imghero {
+/* .__imghero {
   background: url('https://wallpaperaccess.com/full/1947484.jpg') !important;
-}
+} */
 .textAnimated::after {
   content: '|';
   margin-left: 0.2em;
   animation: blinkCursor 1.2s linear infinite;
-  color: white;
 }
 @keyframes blinkCursor {
   0% {
@@ -142,11 +160,8 @@ export default {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 30px;
-  font-weight: 500;
   line-height: 2;
   text-transform: initial;
-  color: #f1f1f1;
   padding: 0 5px;
 }
 #text-1 {
