@@ -21,9 +21,8 @@
             type="button"
             @click="navToggle"
           >
-            <span class="hamburger__top-bun" /><span
-              class="hamburger__bottom-bun"
-            />
+            <span class="hamburger__top-bun" />
+            <span class="hamburger__bottom-bun" />
           </button>
         </div>
         <div
@@ -62,7 +61,7 @@ export default {
       }
     })
     // calling for the toggle function
-    this.navToggle()
+    // this.navToggle()
   },
   methods: {
     navToggle () {

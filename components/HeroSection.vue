@@ -8,7 +8,7 @@
         class="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center"
       >
         <!-- hero text -->
-        <div class="hero-text col-span-6">
+        <div class="text-center md:text-left hero-text col-span-6">
           <h1
             id="text-1"
             class="font-bold text-2xl md:text-4xl max-w-xl text-gray-900 leading-tight"
