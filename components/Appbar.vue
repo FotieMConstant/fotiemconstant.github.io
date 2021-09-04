@@ -14,7 +14,8 @@
           <a
             href="#"
             class="no-underline py-1"
-          ><h1 class="font-bold text-lg tracking-widest">fotiecodes</h1></a>
+          ><h1 class="font-bold text-lg tracking-widest">
+            <div class="w-28"><img src="~/assets/images/logo.png"></div></h1></a>
           <button
             id="menuBtn"
             class="hamburger block sm:hidden focus:outline-none"

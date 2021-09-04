@@ -72,7 +72,7 @@ const axios = require('axios')
 export default {
   data () {
     return {
-      showModal: true,
+      showModal: false,
       randomeQuote: null
     }
   },

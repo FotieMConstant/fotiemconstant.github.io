@@ -10,6 +10,9 @@
       <div>
         <SkillSection />
       </div>
+      <div>
+        <WhatProplesayAboutMe />
+      </div>
     </div>
     <!-- <FooterSection /> -->
   </div>
