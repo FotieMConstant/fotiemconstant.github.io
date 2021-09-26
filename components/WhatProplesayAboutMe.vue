@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="text-center">
-      <div class="text-2xl">
+      <div class="text-2xl text-gray-600 font-bold">
         Meet some of my mentees
       </div>
       <p class="mt-2 text-sm text-gray-500">

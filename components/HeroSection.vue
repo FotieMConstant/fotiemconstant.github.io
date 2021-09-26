@@ -49,7 +49,7 @@ export default {
   },
   mounted () {
     // function for the header title
-    const text1 = ['I design', 'I love', 'Passionate about']
+    const text1 = ['I design', 'I love', 'I love']
     const text2 = ['& Build', 'Coding', 'Opensource!']
     let count = 2
     setInterval(() => {

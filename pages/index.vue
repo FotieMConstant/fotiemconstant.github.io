@@ -16,6 +16,12 @@
       <div>
         <TimelineComponent />
       </div>
+      <div>
+        <Portfolio />
+      </div>
+      <div>
+        <Testimonials />
+      </div>
     </div>
     <!-- <FooterSection /> -->
   </div>

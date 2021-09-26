@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="text-2xl text-center">
+    <div class="text-2xl text-center text-gray-600 font-bold">
       Skill / What I nerd out about
     </div>
     <div class="flex flex-wrap justify-center my-9">

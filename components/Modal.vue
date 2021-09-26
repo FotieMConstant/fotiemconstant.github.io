@@ -21,10 +21,16 @@
           <h2 class="text-xl font-bold py-4 ">
             New design is on it's way!
           </h2>
-          <p class="text-sm text-gray-500 px-8">
-            I am currently rebuilding/redesigning my portfolio and would love to
-            hear from you!
-          </p>
+          <div class="text-sm text-gray-500 px-8">
+            <p>
+              Hi, I am currently rebuilding/redesigning my portfolio, hence some
+              sections and designs might be inconsistent at the moment.
+            </p>
+            <p class="mt-2">
+              Please, feel free to drop me a feedback on twitter 😊
+            </p>
+          </div>
+
           <hr class="mx-auto my-5" width="50">
           <p v-if="randomeQuote === null" class="text-xs mt-5 text-gray-500">
             <a href="#" target="_blank">
