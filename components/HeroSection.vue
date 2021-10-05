@@ -36,6 +36,15 @@
             src="https://avatars.githubusercontent.com/u/42372656?s=460&v=4"
             alt="fotiecodes profile"
           >
+          <div class="flex justify-center transform -rotate-3 mt-3">
+            <a
+              target="_blank"
+              href="https://www.codementor.io/@fotiemconstant?refer=badge"
+            ><img
+              src="https://www.codementor.io/m-badges/fotiemconstant/im-a-cm-b.svg"
+              alt="Codementor badge"
+            ></a>
+          </div>
         </div>
       </div>
     </div>
