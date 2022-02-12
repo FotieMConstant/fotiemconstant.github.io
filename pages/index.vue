@@ -23,7 +23,9 @@
         <Testimonials />
       </div>
     </div>
-    <!-- <FooterSection /> -->
+    <div>
+      <FooterSection />
+    </div>
   </div>
 </template>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>

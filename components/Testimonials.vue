@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="min-w-screen min-h-screen flex items-center justify-center py-5"
+      class="min-w-screen min-h-screen flex items-center justify-center pt-5"
     >
       <div class="w-full bg-white px-5 text-gray-800">
         <div class="w-full max-w-6xl mx-auto">
@@ -295,7 +295,7 @@
         </div>
       </div>
     </div>
-    <div class="flex">
+    <div class="text-center -mt-6">
       <a
         role="button"
         href="https://www.linkedin.com/in/fotie-m-constant/"

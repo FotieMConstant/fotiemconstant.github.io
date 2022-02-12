@@ -21,7 +21,11 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img class="rounded-t-lg" :src="project.thumbnail" alt="">
+            <img
+              class="rounded-t-lg"
+              :src="require('~/assets/images/previews/' + project.thumbnail)"
+              alt=""
+            >
           </a>
           <div class="py-6 px-8 rounded-lg bg-white">
             <a
@@ -77,8 +81,7 @@ export default {
           description:
             'Project 6 - Openclassrooms. is a turn based game written in Javascript in which 2 players play each turn to compete.',
           date: '2020',
-          thumbnail:
-            'https://raw.githubusercontent.com/FotieMConstant/fotiemconstant.github.io/vue-portfolio/img/portfolio/metal-fighters.PNG',
+          thumbnail: 'metal-fighters.png',
           liveView: 'https://fotiemconstant.github.io/Metal-Fighters/',
           githubRepo: 'https://github.com/FotieMConstant/Metal-Fighters'
         },
@@ -93,8 +96,7 @@ export default {
           description:
             'A restaurant review website. Get reviews of restaurants around your location. See ratings from users for a particular restaurant.',
           date: '2020',
-          thumbnail:
-            'https://raw.githubusercontent.com/FotieMConstant/fotiemconstant.github.io/vue-portfolio/img/portfolio/restaurant.PNG',
+          thumbnail: 'restaurant.png',
           liveView: null,
           githubRepo: 'https://github.com/FotieMConstant/Restaurant-review'
         },
@@ -105,8 +107,7 @@ export default {
           description:
             'Generate a randome Quote with just a click with Quote Generator, you can generate random Inspirational and Hard work quotes.',
           date: '2020',
-          thumbnail:
-            'https://raw.githubusercontent.com/FotieMConstant/fotiemconstant.github.io/vue-portfolio/img/portfolio/quote-generator.PNG',
+          thumbnail: 'quote-generator.png',
           liveView: 'https://fotiemconstant.github.io/Project-5/',
           githubRepo: 'https://github.com/FotieMConstant/Project-5'
         },
@@ -117,8 +118,7 @@ export default {
           description:
             'Jobber is an online Job portal, designed and built for Cameroonians, our simple goal is to ease the hiring and finding of jobs in Cameroon.',
           date: '2020',
-          thumbnail:
-            'https://raw.githubusercontent.com/FotieMConstant/fotiemconstant.github.io/vue-portfolio/img/portfolio/jobber.PNG',
+          thumbnail: 'jobber.png',
           liveView: 'https://jobber-homepage.herokuapp.com/',
           githubRepo: 'https://github.com/FotieMConstant/Jobber'
         },
@@ -129,26 +129,24 @@ export default {
           description:
             'An open source Youtube-like web app for your home network. Where you can do live streaming on your LAN, share files and much more.',
           date: '18 Sep. 2018 - Present',
-          thumbnail:
-            'https://raw.githubusercontent.com/FotieMConstant/fotiemconstant.github.io/vue-portfolio/img/portfolio/LANTube.jpg',
+          thumbnail: 'LANTube.jpg',
           liveView: null,
           githubRepo: 'https://github.com/FotieMConstant/LAN-Tube'
         },
         {
           id: 6,
-          name: 'Google Clone',
+          name: 'Nimble',
           lang: [
             { name: 'JavaScript' },
-            { name: 'React' },
-            { name: 'Material UI' }
+            { name: 'Vuejs' },
+            { name: 'Tailwindcss' }
           ],
           description:
-            "A google-clone web app built with react. The search uses Google's Custom Search JSON API to fetch for data on the web.",
-          date: '19 Oct. 2020 - 27 Oct. 2020',
-          thumbnail:
-            'https://raw.githubusercontent.com/FotieMConstant/fotiemconstant.github.io/vue-portfolio/img/portfolio/google-clone.PNG',
-          liveView: 'https://clone-aa97b.web.app/',
-          githubRepo: 'https://github.com/FotieMConstant/google-clone'
+            'Nimble is a visual online code editor. It supports at the moment Tailwind CSS and will support popular libraries like Bootstrap, Bulma, and Material-UI in the future.',
+          date: 'Jan 2022 - Present',
+          thumbnail: 'nimble.png',
+          liveView: 'https://nimble-landing.vercel.app/',
+          githubRepo: 'https://github.com/FotieMConstant'
         }
       ]
     }

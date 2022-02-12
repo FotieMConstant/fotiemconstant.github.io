@@ -1,20 +1,12 @@
 <template>
-  <div class="__footer pa-2">
-    <div class="__footer-links" no-gutters>
-      Made with love by fotiecodes. &copy;
+  <div class="py-10 text-center">
+    <div class="text-gray-600">
+      Made with love by <a href="#">fotiecodes</a>. &copy;
       {{ new Date().getFullYear() }}
     </div>
   </div>
 </template>
 <style scoped>
-.__footer {
-  color: #5f6368;
-  font-size: 14.5px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
 a:visited {
   color: #5f6368;
 }

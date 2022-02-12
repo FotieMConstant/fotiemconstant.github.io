@@ -84,6 +84,7 @@ export default {
   },
   mounted () {
     this.fetchQuote()
+    setTimeout(() => (this.showModal = false), 5000)
   },
   methods: {
     closeModal () {
